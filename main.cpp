@@ -529,15 +529,15 @@ automaton::NFA results[] = {
 };
 
 int main() {
-//    std::ostringstream ss;
-//    to_string(tests[0],ss);
-//    std::cout << ss.str() << std::endl;
-//    automaton::NFA a = convert(tests[3]);
-//    std::cout << a<< std::endl;
-//    std::cout << results[0] << std::endl;
-//    assert(convert(tests[0]) == results[0]);
-//    assert(convert(tests[1]) == results[1]);
-//    assert(convert(tests[2]) == results[2]);
+   std::ostringstream ss;
+   to_string(tests[0],ss);
+   std::cout << ss.str() << std::endl;
+   automaton::NFA a = convert(tests[3]);
+   std::cout << a<< std::endl;
+   std::cout << results[0] << std::endl;
+   assert(convert(tests[0]) == results[0]);
+   assert(convert(tests[1]) == results[1]);
+   assert(convert(tests[2]) == results[2]);
 }
 
 #endif
